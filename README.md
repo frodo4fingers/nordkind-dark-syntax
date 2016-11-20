@@ -9,3 +9,5 @@
 
 
 **problems?** [let me now](https://github.com/frodo4fingers/nordkind-dark-syntax/issues)
+
+[![apm](https://img.shields.io/apm/dm/nordkind-dark-syntax.svg?style=flat-square)](https://atom.io/themes/nordkind-dark-syntax)
