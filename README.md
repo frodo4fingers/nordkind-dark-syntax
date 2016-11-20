@@ -7,9 +7,9 @@
 
 | language        | example       |
 | --------------- |:-------------:|
-| bash            | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_bash.png" width="350">      |
-| python          | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_python.png" width="350">      |
-| LaTeX           | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_latex.png" width="350">      |
-| C               | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_c.png" width="350">      |
+| bash            | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_bash.png" width="500">      |
+| python          | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_python.png" width="500">      |
+| LaTeX           | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_latex.png" width="500">      |
+| C               | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_c.png" width="500">      |
 
 problems or suggestions? create an [issue](https://github.com/frodo4fingers/nordkind-dark-syntax/issues)
