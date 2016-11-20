@@ -1,0 +1,329 @@
+.comment {
+    font-style: italic;
+    &.block {
+        color: lighten(@very-light-gray, 10%);
+    }
+    &.line {
+        color: @light-gray;
+    }
+    &.regexp {
+        color: @light-gray;
+    }
+    &.typehint {
+        color: @gray;
+    }
+}
+
+.constant {
+    &.character {
+        color: @con1;
+        &.escape {
+            color: @con4;
+        }
+        &.math {
+            color: @con2;
+        }
+        &.newline {
+            color: @con3;
+        }
+    }
+    &.language {
+        color: @con2;
+    }
+    &.numeric {
+        color: @con3;
+    }
+    &.other {
+        color: @con4;
+    }
+}
+
+.entity {
+    &.name {
+        &.function {
+            color: @key3;
+            &.decorator {
+                color: @sup2;
+                font-weight: bold;
+            }
+        }
+        &.tag {
+            color: @ent2;
+        }
+        &.type {
+            color: @ent3;
+            font-weight: bold;
+        }
+    }
+    &.other {
+        color: @ent4;
+    }
+}
+
+.invalid {
+    &.deprecated {
+        color: @inv1;
+    }
+    &.illegal {
+        &.annotation {
+            color: @inv2;
+        }
+        &.dec {
+            color: @inv3;
+        }
+        &.decorator {
+            color: @inv4;
+        }
+        &.line {
+            color: @inv5;
+        }
+        &.name {
+            color: @inv6;
+        }
+        &.newline {
+            color: @inv7;
+        }
+        &.operator {
+            color: @inv8;
+        }
+        &.prefix {
+            color: @inv9;
+        }
+    }
+}
+
+.keyword {
+    &.codetag {
+        color: white;
+        background-color: @key2;
+    }
+    &.control {
+        &.cite {
+            color: @key3;
+        }
+        &.flow {
+            color: @key5;
+        }
+        &.import {
+            color: @key3;
+        }
+        &.label {
+            color: @key2;
+        }
+        &.preamble {
+            color: @key5;
+        }
+        &.ref {
+            color: @key4;
+        }
+        &.shell {
+            color: @key3;
+        }
+    }
+    &.illegal {
+        color: @inv3;
+    }
+    &.operator {
+        color: @key4;
+    }
+    &.other {
+        color: @con3;
+    }
+}
+
+.meta {
+    &.backreference {
+        color: @met3;
+    }
+    &.character {
+        color: @met2;
+    }
+    &.class {
+        color: @met1;
+        font-weight: bold;
+    }
+    &.function {
+        color: @met4;
+        &.decorator {
+            color: lighten(@ent2, 10%);
+            font-style: italic;
+        }
+        &.environment {
+            color: @very-light-gray;
+            font-style: normal;
+        }
+    }
+    &.group {
+        font-style: normal;
+        // &.braces {
+        //     color: @light-gray;
+        // }
+    }
+    &.include {
+        color: @met8;
+    }
+    &.item-access {
+        color: @met5;
+    }
+    &.lambda {
+        color: @met6;
+    }
+    &.named {
+        color: @met7;
+    }
+    &.typehint {
+        color: @met8;
+    }
+}
+
+.punctuation {
+    &.character {
+        color: @pun2;
+    }
+    &.comment {
+        color: @light-gray;
+    }
+    &.definition {
+        color: @sto3;
+        &.comment {
+            color: @light-gray;
+        }
+        &.function {
+            color: @sto2;
+        }
+        &.variable {
+            color: @sup3;
+        }
+        // &.string {
+        //     color: #00CC38;
+        // }
+    }
+    &.parenthesis {
+        color: @pun3;
+    }
+    &.section {
+        color: @pun4;
+    }
+    &.separator {
+        color: @pun5;
+    }
+}
+
+.separator {
+    color: @pun6;
+}
+
+.storage {
+    &.modifier {
+        color: @sto1;
+    }
+    &.type {
+        color: @sto2;
+        &.class {
+            color: @met8;
+        }
+        &.function {
+            color: @met6;
+            font-style: italic;
+        }
+        &.string {
+            color: @light-gray;
+        }
+    }
+}
+
+.string {
+    &.quoted {
+        color: @very-light-gray;
+        font-style: italic;
+        &.single {
+            font-style: normal;
+        }
+        &.double {
+            font-style: italic;
+        }
+    }
+    &.regexp {
+        color: @light-gray;
+        font-style: italic;
+    }
+    &.unquoted {
+        color: @very-light-gray;
+        font-weight: bold;
+    }
+}
+
+.support {
+    &.class {
+        color: @con3;
+    }
+    &.function {
+        color: @sto4;
+        &.be {
+            color: @con3;
+            font-weight: bold;
+        }
+        &.coreutils {
+            color: @sto2;
+        }
+        &.general {
+            color: @sto3;
+        }
+        &.magic {
+            color: @pun4;
+            font-weight: bold;
+        }
+        &.options {
+            color: @sup5;
+        }
+    }
+    &.other {
+        color: @sup3;
+    }
+    &.type {
+        color: @sup4;
+    }
+    &.variable {
+        color: @sup5;
+        font-weight: bold;
+    }
+}
+
+.variable {
+    &.definition {
+        color: @sup4;
+    }
+    &.language {
+        color: @var1;
+        &.special.self {
+            color: @var4;
+            font-style: italic;
+        }
+    }
+    &.legacy {
+        color: @var2;
+    }
+    &.parameter {
+        color: @var3;
+        &.function.language.special.self {
+            color: @var4;
+            font-style: italic;
+        }
+    }
+    &.other.normal {
+        color: @var4;
+    }
+}
+
+
+.source.gfm .markup {
+  -webkit-font-smoothing: auto;
+  &.heading {
+    color: @con2;
+  }
+}
+
+atom-text-editor[mini] .scroll-view,
+:host([mini]) .scroll-view {
+  padding-left: 1px;
+}
