@@ -5,7 +5,12 @@
   "description": "A short description of your syntax theme",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "nord",
+    "kind",
+    "bright",
+    "magic"
   ],
   "repository": "https://github.com/atom/nordkind-dark-syntax",
   "license": "MIT",
