@@ -5,7 +5,7 @@
 + works as well with C/C++, Bash, LaTeX, BibTex, etc...
 
 ### bash
-![image](https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_bash.png = 100x)
+![image](https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_bash.png = 100x100)
 
 
 **problems?** [let me know](https://github.com/frodo4fingers/nordkind-dark-syntax/issues)
