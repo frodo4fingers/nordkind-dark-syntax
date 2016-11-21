@@ -1,5 +1,7 @@
 # nordkind-dark-syntax theme
 [![apm](https://img.shields.io/apm/dm/nordkind-dark-syntax.svg)](https://atom.io/packages/nordkind-dark-syntax)
+[![apm](https://img.shields.io/apm/dm/nordkind-dark-syntax.svg)](https://atom.io/themes/nordkind-dark-syntax)
+[![apm](https://img.shields.io/apm/v/nordkind-dark-syntax.svg)](https://atom.io/themes/nordkind-dark-syntax)
 
 + dark background based theme with bright colors
 + intended for cutting edge [magicPython](https://github.com/MagicStack/MagicPython)
