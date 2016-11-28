@@ -8,8 +8,8 @@
 
 | language        | example       |
 | --------------- |:-------------:|
-| bash            | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_bash.png" width="500">      |
 | python          | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_python.png" width="500">     |
+| bash            | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_bash.png" width="500">      |
 | LaTeX           | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_latex.png" width="500">      |
 | C               | <img src="https://raw.githubusercontent.com/frodo4fingers/nordkind-dark-syntax/master/nkd_c.png" width="500">      |
 
