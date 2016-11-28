@@ -46,6 +46,9 @@
                 color: @sup2;
                 font-weight: bold;
             }
+            &.c {
+                font-weight: bold;
+            }
         }
         &.tag {
             color: @ent2;
@@ -98,6 +101,7 @@
         background-color: @key2;
     }
     &.control {
+        &.c,
         &.cite {
             color: @key3;
         }
@@ -135,6 +139,9 @@
     &.backreference {
         color: @met3;
     }
+    // &.block.c {
+    //     color: @key4;
+    // }
     &.character {
         color: @met2;
     }
@@ -170,6 +177,9 @@
     }
     &.named {
         color: @met7;
+    }
+    &.parens.c {
+        color: @var3;
     }
     &.typehint {
         color: @met8;
@@ -219,6 +229,10 @@
     }
     &.type {
         color: @sto2;
+        &.c {
+            color: @met8;
+            font-style: italic;
+        }
         &.class {
             color: @met8;
         }
