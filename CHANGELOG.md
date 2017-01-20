@@ -1,2 +1,2 @@
-## 0.1.0 - First Release
-* nothing to do yet
+## 0.1.6
+* updated deprecated selectors
