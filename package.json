@@ -1,7 +1,7 @@
 {
   "name": "nordkind-dark-syntax",
   "theme": "syntax",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "colorfull syntax theme for cutting edge python highlighting",
   "keywords": [
     "syntax",
