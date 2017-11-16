@@ -1,11 +1,12 @@
 {
   "name": "nordkind-dark-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
-  "description": "colorfull syntax theme for cutting edge python highlighting",
+  "version": "0.5.0",
+  "description": "colorful syntax theme for cutting edge python highlighting",
   "keywords": [
     "syntax",
     "theme",
+    "python",
     "dark",
     "nord",
     "kind",
