@@ -11,6 +11,8 @@
     }
     &.syntax--typehint {
         color: @gray;
+        background-color: @light-gray;
+        font-weight: normal;
     }
 }
 
@@ -180,6 +182,7 @@
     }
     &.syntax--typehint {
         color: @met8;
+        font-weight: bold;
     }
 }
 
@@ -223,6 +226,9 @@
 .syntax--storage {
     &.syntax--modifier {
         color: @sto1;
+        &.syntax--shell {
+            background-color: @very-light-gray;
+        }
     }
     &.syntax--type {
         color: @sto2;
