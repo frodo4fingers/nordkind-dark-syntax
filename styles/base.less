@@ -2,6 +2,9 @@
     font-style: italic;
     &.syntax--block {
         color: lighten(@very-light-gray, 10%);
+        &.syntax--jinja {
+            color: @light-gray;
+        }
     }
     &.syntax--line {
         color: @light-gray;
@@ -11,8 +14,14 @@
     }
     &.syntax--typehint {
         color: @gray;
-        background-color: @light-gray;
+        background-color: @very-light-gray;
         font-weight: normal;
+        &.syntax--punctuation {
+            color: @dark-gray;
+        }
+        &.syntax--directive {
+            font-weight: bold;
+        }
     }
 }
 
@@ -62,6 +71,20 @@
     }
     &.syntax--other {
         color: @ent4;
+        &.syntax--jinja {
+            color: @light-gray;
+            &.syntax--delimiter {
+                &.syntax--comment {
+                    color: @light-gray;
+                }
+                &.syntax--tag {
+                    color: @var4;
+                }
+                &.syntax--variable {
+                    color: @pun4;
+                }
+            }
+        }
     }
 }
 
@@ -106,6 +129,9 @@
         &.syntax--c,
         &.syntax--cite {
             color: @key3;
+        }
+        &.syntax--jinja {
+            color: @key4;
         }
         &.syntax--flow {
             color: @key5;
@@ -180,8 +206,13 @@
     &.syntax--parens.syntax--c {
         color: @var3;
     }
+    &.syntax--scope.syntax--jinja {
+        &.syntax--variable {
+            color: @ent4;
+        }
+    }
     &.syntax--typehint {
-        color: @met8;
+        color: @dark-gray;
         font-weight: bold;
     }
 }
@@ -204,12 +235,15 @@
         &.syntax--variable {
             color: @sup3;
         }
-        // &.syntax--string {
-        //     color: #00CC38;
-        // }
     }
     &.syntax--parenthesis {
         color: @pun3;
+    }
+    &.syntax--other {
+        color: @pun4;
+        &.syntax--jinja {
+            color: @met7;
+        }
     }
     &.syntax--section {
         color: @pun4;
@@ -327,8 +361,18 @@
             font-style: italic;
         }
     }
-    &.syntax--other.syntax--normal {
-        color: @var4;
+    &.syntax--other {
+        &.syntax--normal {
+            color: @var4;
+        }
+        &.syntax--jinja {
+            &.syntax--filter {
+                color: @var4;
+            }
+            &.syntax--attribute {
+                color: @sup5;
+            }
+        }
     }
 }
 
